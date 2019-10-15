@@ -19,7 +19,7 @@ namespace Spider01
                 var worksheet = workbook.Worksheets.Add("tretta");
                 worksheet.Column(1).SetDataType(XLDataType.Text);
                 int index = 1;
-                for (int i = 646; i <= 693; i++)
+                for (int i = 694; i <= 793; i++)
                 {
                     var url = $@"https://www.pokemontretta.com.tw/trettaBox.php?id={i}&ajax=true&height=435";
 
